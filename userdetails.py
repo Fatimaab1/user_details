@@ -11,11 +11,11 @@ address = input('What is your address?')
 print(address)
 
 houseNumber = input("enter door number")
-if houseNumber.isdigit():
+if houseNumber.isdigit() == True:
     print(houseNumber)
 else:
     print("house number entered is invalid")
 
 
-print("Hi", firstName, lastName + "!\n\nYou're", str(age), "\n\nYou live in", address, "And you'r door number is",
+print("Hi", firstName, lastName + " You're", str(age), "You live in", address, "And your door number is",
       houseNumber)
