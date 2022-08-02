@@ -91,3 +91,88 @@ print(b) #12.0
 c = str(6)
 print(c) # '6'
 ````
+
+# Data Collection
+Collections in Python are container data types such as:
+- Lists 
+- Tuples
+- Dictionary
+
+Lists are declared in square brackets, it is mutable, stores duplicate values and elements can be accessed using indexes.
+
+#### List Example:
+````
+shopping_list =["bat", "milk", "bread"]
+print(shopping_list)
+
+output:
+['bat', 'milk', 'bread']
+````
+Note: In this code we have created a list called shopping and have added three items, the shopping list is then printed to the console and wil display content inside.
+
+### Finding the type of shopping list
+````
+shopping_list =["bat", "milk", "bread"]
+
+print(type(shopping_list))
+print(type("bat"))
+print(type("milk"))
+print(type("bread"))
+
+output:
+<class 'list'>
+<class 'str'>
+<class 'str'>
+<class 'str'>
+````
+
+### Finding the length of shopping list
+````
+shopping_list =["bat", "milk", "bread"]
+print(len(shopping_list))
+
+output:
+3
+````
+
+### Adding to shopping list
+````
+shopping_list =["bat", "milk", "bread"]
+shopping_list.append("oreos") # this line of code adds oreos to the end of the shopping list
+print(shopping_list)
+
+output:
+['bat', 'milk', 'bread', 'oreos']
+````
+
+### Removing an item from shopping list
+````
+shopping_list =["bat", "milk", "bread"]
+shopping_list.remove("milk") # this line of code removes the specified item from the shopping list
+print(shopping_list)
+
+output:
+['bat', 'bread']
+````
+
+### Replacing an item from the list and replace bat with milk
+````
+mixed_list = [1, 2, 3, "one", "two", "three"]
+print(mixed_list)
+
+output:
+[1, 2, 3, 'one', 'two', 'three']
+````
+
+### Print 2 & 3 from the list
+````
+mixed_list = [1, 2, 3, "one", "two", "three"]
+print(mixed_list[1]) # outcome would be 2
+print(mixed_list[2]) # outcome would be 3
+print(mixed_list[1:3])
+
+output:
+2
+3
+[2, 3]
+````
