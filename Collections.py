@@ -28,12 +28,15 @@ shopping_list =["bat", "milk", "bread"]
 #print(shopping_list)
 
 # find out how to replace an item from the list and replace bat with milk
+shopping_list =["bat", "milk", "bread"]
+shopping_list[0] = "milk"
+print(shopping_list)
 
-mixed_list = [1, 2, 3, "one", "two", "three"]
+#mixed_list = [1, 2, 3, "one", "two", "three"]
 #print(mixed_list)
 
 # print 2 & 3 from the above list
-print(mixed_list[1]) # outcome would be 2
-print(mixed_list[2]) # outcome would be 3
-print(mixed_list[1:3])
+#print(mixed_list[1]) # outcome would be 2
+#print(mixed_list[2]) # outcome would be 3
+#print(mixed_list[1:3])
 

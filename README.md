@@ -125,6 +125,7 @@ output:
 <class 'str'>
 <class 'str'>
 ````
+Note: This code displays the type of the shopping list and the types of the items.
 
 ### Finding the length of shopping list
 ````
@@ -134,35 +135,40 @@ print(len(shopping_list))
 output:
 3
 ````
+Note: This code returns the number of items in the shopping list.
 
 ### Adding to shopping list
 ````
 shopping_list =["bat", "milk", "bread"]
-shopping_list.append("oreos") # this line of code adds oreos to the end of the shopping list
+shopping_list.append("oreos")
 print(shopping_list)
 
 output:
 ['bat', 'milk', 'bread', 'oreos']
 ````
+Note: In this code we are adding additional items to the shopping list, here we have added oreos to the end of the shopping list.
 
 ### Removing an item from shopping list
 ````
 shopping_list =["bat", "milk", "bread"]
-shopping_list.remove("milk") # this line of code removes the specified item from the shopping list
+shopping_list.remove("milk")  
 print(shopping_list)
 
 output:
 ['bat', 'bread']
 ````
+Note: this line of code removes the specified item from the shopping list, in this case we remove "milk".
 
 ### Replacing an item from the list and replace bat with milk
 ````
-mixed_list = [1, 2, 3, "one", "two", "three"]
-print(mixed_list)
+shopping_list =["bat", "milk", "bread"]
+shopping_list[0] = "milk"
+print(shopping_list)
 
 output:
-[1, 2, 3, 'one', 'two', 'three']
+['milk', 'milk', 'bread']
 ````
+Note: In this code we replace bat with milk by directly assigning a new value to the first index. 
 
 ### Print 2 & 3 from the list
 ````
