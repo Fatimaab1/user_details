@@ -179,3 +179,58 @@ output:
 [2, 3]
 ````
 Note: In this code we print specific elements from the list using their index.
+
+## Dictionary 
+A dictionary is an unordered and mutable Python container that stores mappings of unique keys to values.
+
+### Dictionary syntax:
+Dictionaries are written with curly brackets `({})`, including key-value pairs separated by commas `(,)`. A colon `(:)` separates each key from its value.
+
+Dictionary Example:
+
+````
+devops_student_1 = {
+    "name": "James",
+    "stream": "tech",
+    "completed_lessons": 3,
+    "completed_lessons_names": ["lists", "operations", "built in methods"]
+}
+
+print(devops_student_1.keys()) 
+output: dict_keys(['key', 'name', 'stream', 'completed_lessons', 'completed_lessons_names'])
+print(devops_student_1.values)
+output: <built-in method values of dict object at 0x1092a4240>
+print(type(devops_student_1))
+output: <class 'dict'>
+print(devops_student_1["name"])
+output: James
+````
+
+### Deleting an item from dict and delete operations
+The `pop()` method removes the item with the specified key name:
+````
+devops_student_1.pop("name")
+print(devops_student_1)
+
+output:
+{'key': 'value', 'stream': 'tech', 'completed_lessons': 3, 'completed_lessons_names': ['lists', 'operations', 'built in methods']}
+````
+
+The `del` keyword can also delete the dictionary completely:
+````
+del devops_student_1
+print(devops_student_1) #this will cause an error because "thisdict" no longer exists.
+
+output:
+ERROR
+````
+Change 'completed lesson' from 3 to 2
+````
+devops_student_1["completed_lessons"] = 2
+print(devops_student_1)
+
+output:
+{'key': 'value', 'name': 'James', 'stream': 'tech', 'completed_lessons': 2, 'completed_lessons_names': ['lists', 'operations', 'built in methods']}
+````
+
+### Control Flow
