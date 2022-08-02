@@ -173,12 +173,9 @@ Note: In this code we replace bat with milk by directly assigning a new value to
 ### Print 2 & 3 from the list
 ````
 mixed_list = [1, 2, 3, "one", "two", "three"]
-print(mixed_list[1]) # outcome would be 2
-print(mixed_list[2]) # outcome would be 3
 print(mixed_list[1:3])
 
 output:
-2
-3
 [2, 3]
 ````
+Note: In this code we print specific elements from the list using their index.
