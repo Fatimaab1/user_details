@@ -44,7 +44,7 @@
 # create a dictionary with 6 key value pairs
 # NOTE: "key" : "value",
 
-new_shopping_list = {
+colour_list = {
     "colour1": "red",
     "colour2": "blue",
     "colour3": "pink",
@@ -53,17 +53,17 @@ new_shopping_list = {
     "colour6": "purple"
 }
 # use for loop to iterate through it
-for item in new_shopping_list:
+for item in colour_list:
     print(item)
 
 # print only keys
-print(new_shopping_list.keys())
+print(colour_list.keys())
 
 # print only value
-print(new_shopping_list.values())
+print(colour_list.values())
 
 # print key with matching value
-for key, value in new_shopping_list.items():
+for key, value in colour_list.items():
     print(key,value)
 
 
