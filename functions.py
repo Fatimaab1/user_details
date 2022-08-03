@@ -20,6 +20,8 @@
 # create a function called add that takes 2 arguments as int
 # add both values and display the result
 
-def add(age, height):
-    return (age + height)
+def add(a, b):
+    return (a + b)
 print(add(3,4))
+
+
