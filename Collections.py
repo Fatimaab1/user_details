@@ -88,17 +88,6 @@ devops_student_1 = {
 #devops_student_1["completed_lessons"] = 2
 #print(devops_student_1)
 
-# Control Flow
-# if , elif, else statement - conditional statements
-# Sudo coding
-#weather = "dry" # True or false
-
-#if weather == "sunny":
-   # print("Lets do a BBQ") # If true this line of code will be executed
-#elif weather == "dry":
- #   print("getting there")
-#else:
-    #print("hope for the best") # this line of code will be executed if weather is not sunny
 
 
 
